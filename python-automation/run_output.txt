@@ -1,0 +1,7 @@
+Read       13,165 rows from sample_input.csv
+Fixed          25  exact duplicate rows: removed
+Fixed          10  inconsistent branch names (spacing or capitals): standardised
+Fixed          20  missing unit counts: rebuilt from revenue and price (20), removed (0)
+Fixed          10  negative revenue values: sign corrected
+Clean      13,140 rows
+Wrote     Sales_Report.xlsx  (6 sheets, 1 chart) in 0.8s
